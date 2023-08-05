@@ -1,0 +1,39 @@
+body {
+    background-color: #f2bdd7;
+   
+  }
+
+  .gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .gallery-item {
+    padding: 5px;
+  }
+
+  .gallery-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #f43c83f1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #6d595fe6;
+    color: white;
+}

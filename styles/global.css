@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #db4975e3;
+    --secondary-color: #6c757d;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 150px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+  }
+  
+  /* About section styles */
+  #about {
+    padding: 100px 0;
+  }
+  
+  /* Portfolio section styles */
+  #portfolio {
+    padding: 100px 0;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    padding-top: 100px;
+  }
+  
+  section#portfolio img {
+    height: 500px;
+    object-fit: cover;
+}
+  .cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #f43c83f1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .cta-button:hover {
+    background-color: #6d595fe6;
+  }
+    .portfolio-item {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    
+    .portfolio-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    .portfolio-item .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(225, 27, 27, 0.923);
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s ease;
+    }
+    
+    .portfolio-item .caption {
+      color: #10e284;
+      font-size: 20px;
+    }
+    
+    .portfolio-item:hover {
+      transform: scale(1.05);
+    }
+    
+    .portfolio-item:hover .overlay {
+      opacity: 1;
+    }
+      /* Footer styles */
+  footer {
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  #my-img{
+  height: 296px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -108px;
+}
+.progress-bar{
+  background-color: #df5d84 !important;
+}
